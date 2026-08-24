@@ -47,7 +47,7 @@ mapping = {0: 'ACCOUNTANT',
  23: 'TEACHER'}
 
 def main():
-    st.title("Resume Screeing App")
+    st.title("Resume Screening App")
     uploaded_file = st.file_uploader("Upload Resume",type = ['pdf','txt'])
     if uploaded_file is not None:
         try:
